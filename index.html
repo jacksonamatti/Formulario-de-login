@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>formulario</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Criar conta</h2>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="usename">nome de usuario</label>
+          <input type="text" id="username" placeholder="digite seu nome" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <small>mas error</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">email</label>
+          <input type="text" id="email" placeholder="digite seu email" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <small>mas error</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">senha</label>
+          <input type="text" id="password" digite sua senha />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <small>mas error</small>
+
+          <div class="form-control">
+            <label for="password-confirmation">confirmar senha</label>
+            <input
+              type="text"
+              id="password-confirmation"
+              placeholder="confirme sua senha"
+            />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fa-sharp fa-solid fa-circle-check"></i>
+            <small>mas error</small>
+          </div>
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/737175c899.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
